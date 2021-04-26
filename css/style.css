@@ -6,14 +6,72 @@
 
 .box{
     width: calc(1000px / 3 - 20px);
-    height: 400px;
+    height: 600px;
     background-color: green;
     float: left;
     margin: 10px;
+    position: relative;
 }
 
 clearfix::after{
     content: '';
     display: table;
     clear: both;
+}
+
+.img{
+    width: 100%;
+    height: 450px;
+}
+
+.img-hover{
+    width: 100%;
+    height: 450px;
+    display: none;
+}
+
+.box:hover .img{
+    display: none;
+}
+
+.box:hover .img-hover{
+    display: block;
+}
+
+
+
+h2, p{
+    font-size: 15px;
+    margin: 0;
+}
+
+.prezzo{
+    display: block;
+    margin-top: 10px;
+    color: red;
+}
+
+.cuore{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-size: 25px;
+    background-color: white;
+    padding: 5px;
+}
+
+.sconto, .info{
+    color: white;
+    position: absolute;
+    top: 420px;
+}
+
+.sconto{
+    background-color: red;
+}
+
+.info{
+    position: absolute;
+    left: 40px;
+    background-color: green;
 }
