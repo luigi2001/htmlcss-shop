@@ -6,8 +6,6 @@
 
 .box{
     width: calc(1000px / 3 - 20px);
-    height: 600px;
-    background-color: green;
     float: left;
     margin: 10px;
     position: relative;
@@ -38,7 +36,9 @@ clearfix::after{
     display: block;
 }
 
-
+.intestazione-img{
+    height: 100px;
+}
 
 h2, p{
     font-size: 15px;
@@ -79,6 +79,6 @@ h2, p{
     background-color: green;
 }
 
-#colore-di-sfondo-special{
+.special{
     background-color: green;
 }
