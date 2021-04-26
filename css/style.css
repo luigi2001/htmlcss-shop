@@ -1,0 +1,19 @@
+
+.conteiner{
+    width: 1000px;
+    margin: auto;
+}
+
+.box{
+    width: calc(1000px / 3 - 20px);
+    height: 400px;
+    background-color: green;
+    float: left;
+    margin: 10px;
+}
+
+clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
