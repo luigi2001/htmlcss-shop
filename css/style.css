@@ -46,9 +46,12 @@ h2, p{
 }
 
 .prezzo{
+    color: red;
+}
+
+.prezzo, .prezzo-special{
     display: block;
     margin-top: 10px;
-    color: red;
 }
 
 .cuore{
